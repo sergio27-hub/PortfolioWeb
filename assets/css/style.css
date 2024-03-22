@@ -249,7 +249,7 @@ img{
     white-space: nowrap; /* Evita que el texto se desplace a la siguiente línea */
     margin: 10px auto; /* Centra el texto horizontalmente */
     letter-spacing: .15em; /* Espaciado entre caracteres */
-    animation: typing 3.8s steps(40, end), blink-caret .75s step-end infinite; /* Aplica la animación */
+    animation: typing 3.8s steps(80, end), blink-caret .90s step-end infinite; /* Aplica la animación */
 
 }
 @keyframes typing {

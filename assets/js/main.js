@@ -37,12 +37,12 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
     })
 
 /*SCROLL HOME*/
-sr.reveal('.home_title', {})
-sr.reveal('.button', { delay: 200 })
-sr.reveal('.home_social-icon', { interval: 200 })
+sr.reveal('.home_title', { delay: 200 , interval: 300})
+sr.reveal('.button', { delay: 400 })
+sr.reveal('.home_social-icon', { interval: 400 })
 /*SCROLL ABOUT*/
 sr.reveal('.about_img', { delay: 400 })
-sr.reveal('.about_subtitle', { delay: 200 })
+sr.reveal('.about_subtitle', { delay: 500 })
 sr.reveal('.about_profession', { delay: 300 })
 sr.reveal('.about_text', { delay: 400 })
 sr.reveal('.about_social-icon', { delay: 500 })

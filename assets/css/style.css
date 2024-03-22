@@ -249,7 +249,7 @@ img{
     white-space: nowrap; /* Evita que el texto se desplace a la siguiente línea */
     margin: 10px auto; /* Centra el texto horizontalmente */
     letter-spacing: .15em; /* Espaciado entre caracteres */
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; /* Aplica la animación */
+    animation: typing 3.8s steps(40, end), blink-caret .75s step-end infinite; /* Aplica la animación */
 
 }
 @keyframes typing {
@@ -299,15 +299,15 @@ img{
 
 .div-icon-linkedin:hover {
     color: var(--first-color);
-    animation: bounce 1s ease infinite;
+    animation: pulse 1s ease infinite;
 }
 
 .div-icon-github:hover {
-    animation: spin 2s linear infinite;
+    animation: pulse 1s linear infinite;
 }
 
 .div-icon-instagram:hover {
-    animation: pulse 1.5s ease-in-out infinite alternate;
+    animation: pulse 1s ease-in-out infinite alternate;
 }
 
 @keyframes bounce {
